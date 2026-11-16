@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become a Nominee | Prom Night 2026</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <h2>Prom Night 2026</h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="king.html">King</a>
+        <a href="queen.html">Queen</a>
+        <a href="ballot.html">Vote</a>
+    </nav>
+</header>
+
+<section class="intro">
+    <h2>Become a Nominee</h2>
+    <p>Think you deserve a place in the Royal Court? Introduce yourself!</p>
+
+    <div class="login-card">
+        <form>
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your full name" required>
+
+            <label>Student ID</label>
+            <input type="text" placeholder="Enter your student ID" required>
+
+            <label>Email Address</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Nomination Category</label>
+            <select required>
+                <option value="">Choose a category</option>
+                <option>Prom King</option>
+                <option>Prom Queen</option>
+            </select>
+
+            <label>Tell us about yourself</label>
+            <textarea rows="4" placeholder="Write a short introduction..." required></textarea>
+
+            <label>Why should you be nominated?</label>
+            <textarea rows="4" placeholder="Share your reasons..." required></textarea>
+
+            <button type="button" class="btn"
+            onclick="document.getElementById('message').style.display='block'">
+                Submit Nomination
+            </button>
+
+            <p id="message" style="display:none; color:#d8b56d;">
+                Demo Only! Your nomination has not been submitted.
+            </p>
+        </form>
+    </div>
+</section>
+
+<footer>Prom Night 2026 | Voting Project</footer>
+
+</body>
+</html>
